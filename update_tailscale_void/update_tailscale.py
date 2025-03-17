@@ -70,7 +70,7 @@ def main():
     run_command("yes | tailscale update")
 
     # Reinicia o serviço
-    run_command("systemctl restart tailscaled")
+    run_command("vsv restart tailscaled")
 
     log_message("Atualização concluída.")
 
