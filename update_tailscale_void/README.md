@@ -9,3 +9,8 @@ Assim ele executa todos os dias as 00:00h
 ```bash
 cp update_tailscale.py /usr/local/bin/
 ```
+Outra forma seria já fazer o download direto para o diretório correto
+```bash
+curl -L -o /usr/local/bin/update_tailscale.py https://raw.githubusercontent.com/e-brendon/Tailscale_tools/refs/heads/main/update_tailscale_void/update_tailscale.py
+```
+
